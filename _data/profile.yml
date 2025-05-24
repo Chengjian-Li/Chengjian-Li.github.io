@@ -23,7 +23,7 @@ short_bio_text_justify: false
 short_bio: >-
   He received the M.S. degree in Internet of Things from the Xi'an University of Technology, Xi'an, China, in 2018. He is currently pursuing the Ph.D. degree in computer science and technology at Nanjing University of Science and Technology, Nanjing, China. His research interests include computer vision, and image processing.
 
-portrait_url: /assets\images\photos/BingImageOfTheDay.jpg
+portrait_url: assets\images\photos\BingImageOfTheDay.jpg
 # portrait_caption: >-
 #   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
