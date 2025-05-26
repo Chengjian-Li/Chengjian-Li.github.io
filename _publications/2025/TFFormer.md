@@ -1,7 +1,7 @@
 ---
 title:          "OSAMamba: An Adaptive Bidirectional Selective State Space Model For OSA Detection"
 date:           2025-03-5 00:01:00 +0800
-selected:       false
+selected:       true
 pub:            "IEEE Transactions on Instrumentation and Measurement"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

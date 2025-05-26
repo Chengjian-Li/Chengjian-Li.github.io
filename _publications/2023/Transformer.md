@@ -1,7 +1,7 @@
 ---
 title:          "Transformer 驱动的图像分类研究进展"
 date:           2023-09-1 00:01:00 +0800
-selected:       false
+selected:       true
 pub:            "中国图象图形学报 "
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

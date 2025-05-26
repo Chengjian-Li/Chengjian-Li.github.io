@@ -1,7 +1,7 @@
 ---
 title:          "FTMoMamba: Motion Generation with Frequency and Text State Space Models"
 date:           2024-11-26 00:01:00 +0800
-selected:       false
+selected:       true
 # pub:            "IEEE Transactions on Instrumentation and Measurement"
 # pub_pre:        "Submitted to "
 pub_post:       'Under review.'

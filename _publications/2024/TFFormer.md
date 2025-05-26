@@ -2,7 +2,7 @@
 title:          "DRLFormer: A Data Rebalancing Loss Constrained Light Transformer For OSA 
                 Detection"
 date:           2024-08-8 00:01:00 +0800
-selected:       false
+selected:       true
 pub:            "IEEE Transactions on Instrumentation and Measurement"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'

@@ -2,7 +2,7 @@
 title:          "TFFormer: A time–frequency information fusion-based CNN-transformer model 
                  for OSA detection with single-lead ECG"
 date:           2023-09-6 00:01:00 +0800
-selected:       false
+selected:       true
 pub:            "IEEE Transactions on Instrumentation and Measurement"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
