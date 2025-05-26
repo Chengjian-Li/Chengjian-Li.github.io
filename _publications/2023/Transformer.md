@@ -20,7 +20,8 @@ authors:
   - Zhenzhen You
   - Wenqi Ren
 
-# links:
+links:
+    Paper: https://www.cjig.cn/zh/article/doi/10.11834/jig.220799/
 #   Code: https://github.com/luost26/bubble-visual-hash
 #   Demo: https://luost26.github.io/bubble-visual-hash
 ---
