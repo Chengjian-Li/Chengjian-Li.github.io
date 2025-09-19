@@ -1,6 +1,6 @@
 ---
 title:          "Plenodium: UnderWater 3D Scene Reconstruction with Plenoptic Medium Representation"
-date:           2025-03-5 00:01:00 +0800
+date:           2025-09-18 00:01:00 +0800
 selected:       true
 pub:            "NeurIPS"
 # pub_pre:        "Submitted to "
