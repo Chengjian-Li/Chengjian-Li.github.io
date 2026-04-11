@@ -30,11 +30,16 @@ portrait_url: /assets/images/photos/BingImageOfTheDay.png
 education:
 - name: NJUST
   logo: /assets/images/badges/njust.png
-  position: >- 
+  position: >-
     Department of Computer Science <br/>
     Ph.D. Student
   date: Sep. 2024 - present
 
+professional_services:
+- Reviewer, IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
+- Reviewer, IEEE Transactions on Instrumentation and Measurement (TIM)
+- Reviewer, International Conference on Learning Representations (ICLR)
+- Reviewer, European Conference on Computer Vision (ECCV)
 
 # experience:
 # - name: Peking University
