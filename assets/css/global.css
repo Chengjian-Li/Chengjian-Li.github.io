@@ -1,60 +1,316 @@
 @charset "utf-8";
+
 body {
-    font-family: "Lato", sans-serif;
+    background: #fff;
+    color: #111;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 16px;
     font-weight: 400;
-    padding-top: 5.0rem;
+    line-height: 1.3;
+    margin: 0;
+    padding-bottom: 8px;
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.academic-cv > .container-lg {
+    background: #fff;
+    box-shadow: 0 0 7px #122b6d;
+    margin: 18px auto 20px;
+    max-width: 980px;
+    min-height: 1000px;
+    padding: 14px;
+}
+
+a,
+a > tt {
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px dotted gray;
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0.8em;
+    margin-top: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-weight: 700;
 }
 
-.text-profile-position {
+h1,
+h2,
+h3 {
+    border-bottom: 1px solid #aaa;
+    color: rgb(178, 34, 34);
+    line-height: 1;
+    margin-bottom: 0.3em;
+    margin-top: 0.7em;
+    padding-bottom: 0.2em;
+    padding-top: 0.5em;
+}
+
+h1 {
+    font-size: 165%;
+}
+
+h2 {
+    font-size: 125%;
+    padding-top: 0.8em;
+}
+
+h3 {
+    border-bottom: 0;
+    font-size: 110%;
+}
+
+ul,
+ol,
+dl {
+    margin-bottom: 0.8em;
+    margin-top: 0.2em;
+    padding-top: 0.2em;
+}
+
+ul {
+    list-style-position: outside;
+    list-style-type: square;
+}
+
+li {
+    margin: 0.3em;
+}
+
+.cv-navbar {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 8px 14px;
+}
+
+.cv-navbar .container-lg {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand {
+    color: #111 !important;
+    font-size: 17px;
+    padding: 0;
+}
+
+.navbar .nav-link {
+    color: rgb(0, 0, 255) !important;
+    padding: 0.25rem 0 0.25rem 1.5rem;
+}
+
+.navbar .nav-item.active .nav-link {
+    color: rgb(178, 34, 34) !important;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.profile-section {
+    margin-top: 4px;
+}
+
+.profile-head {
+    align-items: flex-start;
+    display: flex;
+    gap: 18px;
+    margin-bottom: 12px;
+}
+
+.profile-photo-link:hover {
+    border-bottom: 0;
+}
+
+.profile-photo {
+    display: block;
+    height: 180px;
+    object-fit: cover;
+    width: auto;
+}
+
+.profile-summary {
+    padding-top: 3px;
+}
+
+.profile-name {
+    font-size: 18px;
+    margin-bottom: 1.2em;
+}
+
+.profile-name span {
     font-weight: 400;
 }
 
+.profile-links {
+    margin-bottom: 0;
+}
+
+.text-profile-position,
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
-}
-
-.navbar {
-    opacity: 0.95;
 }
 
 .inline-badge {
     height: 16px;
-    vertical-align: -10%;
-    margin-right: 2px;
     line-break: unset;
+    margin-right: 2px;
+    vertical-align: -10%;
 }
 
 .no-break {
     white-space: nowrap;
 }
 
-.cover-image {
+.cv-section {
+    margin-top: 4px;
+}
+
+.cv-list,
+.news-list {
+    padding-left: 1.35rem;
+}
+
+.cv-list li {
+    align-items: flex-start;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.cv-list-main {
+    min-width: 0;
+}
+
+.cv-list-date,
+.news-date {
+    color: #444;
+    white-space: nowrap;
+}
+
+.section-link {
+    color: #111;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+
+.publications-section h2 {
+    margin-bottom: 0.5em;
+}
+
+.publication-item {
+    align-items: flex-start;
+    display: flex;
+    gap: 14px;
+    margin: 0 0 1em;
+}
+
+.publication-thumb {
+    flex: 0 0 184px;
+}
+
+.proj-thumb {
+    border: 1px solid #e0e0e0;
+    display: block;
+    height: 90px;
+    object-fit: cover;
+    padding: 1px;
     width: 180px;
+}
+
+.publication-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.pub-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.pub-authors,
+.pub-venue,
+.pub-links,
+.pub-abstract {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.pub-abstract {
+    color: #555;
+}
+
+.year-nav {
+    top: 18px;
+}
+
+.year-nav .nav-link {
+    color: rgb(0, 0, 255);
+    padding: 0.2rem 0.75rem;
+}
+
+.year-nav .nav-link.active {
+    background: transparent;
+    color: rgb(178, 34, 34);
+    font-weight: 700;
+}
+
+.footer .container-lg {
+    max-width: 980px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.footer .row {
+    border-top: 1px solid #c0c0c0;
+    color: #888;
+    font-size: small;
+    margin-top: 4em !important;
+    padding-top: 0.2em;
+}
+
+.email-text {
+    font-family: Courier, monospace;
+}
+
+.cover-image {
     max-height: 120px;
+    width: 180px;
 }
 
 .abstract-body {
     min-height: 100px;
 }
 
-img.lazy {
-    background-image: url('images/loading.gif');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 50px 50px;
-    min-height: 80px;
-}
-
+img.lazy,
 div.lazy {
-    background-image: url('images/loading.gif');
-    background-repeat: no-repeat;
+    background-image: url("images/loading.gif");
     background-position: 50% 50%;
+    background-repeat: no-repeat;
     background-size: 50px 50px;
     min-height: 80px;
 }
@@ -63,7 +319,69 @@ div.lazy {
     font-size: 100%;
 }
 
-.email-text {
-    font-family: Courier, monospace;
+@media (max-width: 767.98px) {
+    body {
+        font-size: 15px;
+    }
+
+    .academic-cv > .container-lg {
+        box-shadow: none;
+        margin-top: 0;
+        min-height: 0;
+        padding: 12px;
+    }
+
+    .cv-navbar {
+        border-bottom: 1px solid #ddd;
+        max-width: none;
+        padding: 8px 12px;
+    }
+
+    .profile-head {
+        gap: 12px;
+    }
+
+    .profile-photo {
+        height: 120px;
+    }
+
+    .profile-name {
+        font-size: 17px;
+        margin-bottom: 0.7em;
+    }
+
+    .publication-item {
+        display: block;
+    }
+
+    .publication-thumb {
+        margin-bottom: 8px;
+    }
+
+    .proj-thumb {
+        height: auto;
+        max-width: 100%;
+        width: 180px;
+    }
+
+    .cv-list li {
+        display: list-item;
+    }
+
+    .cv-list-date {
+        display: block;
+    }
 }
 
+@media (max-width: 420px) {
+    .profile-head {
+        display: block;
+    }
+
+    .profile-photo {
+        height: auto;
+        margin-bottom: 12px;
+        max-width: 180px;
+        width: 52%;
+    }
+}
