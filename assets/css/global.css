@@ -189,7 +189,8 @@ li {
 }
 
 .cv-list,
-.news-list {
+.news-list,
+.service-list {
     padding-left: 1.35rem;
 }
 
@@ -208,6 +209,14 @@ li {
 .news-date {
     color: #444;
     white-space: nowrap;
+}
+
+.news-pinned {
+    margin-bottom: 0.5em;
+}
+
+.service-list {
+    font-size: 14px;
 }
 
 .section-link {

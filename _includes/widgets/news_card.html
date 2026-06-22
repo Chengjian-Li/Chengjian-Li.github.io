@@ -1,9 +1,16 @@
-{% assign news_items = site.news | sort: "date" | reverse | slice: 0, include.limit -%}
+{% assign news_items = site.news | sort: "date" | reverse -%}
+{% assign pinned_news = news_items | where_exp: "item", "item.pinned == true" -%}
+{% assign regular_news = news_items | where_exp: "item", "item.pinned != true" -%}
 
 <section class="cv-section">
     <h2>News</h2>
     <ul class="news-list">
-        {% for item in news_items %}
+        {% for item in pinned_news %}
+        <li class="news-pinned">
+            {{ item.title }}
+        </li>
+        {% endfor %}
+        {% for item in regular_news limit:include.limit %}
         <li>
             <span class="news-date">[{{ item.date | date: "%m/%Y" }}]</span>
             {{ item.title }}
