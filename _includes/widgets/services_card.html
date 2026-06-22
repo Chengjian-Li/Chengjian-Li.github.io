@@ -1,0 +1,12 @@
+{% if site.data.profile.professional_services %}
+<div class="my-3 bg-white shadow-sm rounded-sm">
+    <h6 class="p-3 mb-0 border-bottom border-gray" style="color: #c0392b;">Professional Services</h6>
+    <div class="px-3 py-2">
+        <ul class="small pl-3 mb-0">
+            {% for item in site.data.profile.professional_services %}
+            <li class="mb-1">{{ item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
